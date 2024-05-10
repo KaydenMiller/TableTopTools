@@ -1,0 +1,20 @@
+﻿{
+  "type": "audio",
+  "version": "1",
+  "elements": [
+    {
+      "file": "./music-01.wav",
+      "fileType": "wav",
+      "loop": true,
+      "startOffset": 1, // the amount of time after being received to run the audio
+      "volume": 100, // %
+    },
+    {
+      "file": "./sound-effect.wav",
+      "fileType": "wav",
+      "loop": false,
+      "startOffset": 0,
+      "volume": 100, // %
+    }
+  ]
+}
